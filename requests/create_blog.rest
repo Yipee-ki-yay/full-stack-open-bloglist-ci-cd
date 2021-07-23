@@ -1,0 +1,11 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFiYmEiLCJpZCI6IjYwNzk0ZGJhZjJhZmU5YzFiZjczNGI3MCIsImlhdCI6MTYxODU3MDI2N30.lJL138_esstKpQ4ALDY15LPDiVFjwX3PkJshvTrkuuQ
+
+{
+  "title": "Abbabbb1",
+  "author": "qwerty11",
+  "url": "url",
+  "likes": "7",
+  "userId": "6079684dad084ac951790b27"
+}
