@@ -50,7 +50,7 @@ jobs:
         if: ${{ github.event_name == 'push' && !contains(join(github.event.commits.*.message, ', '), '#skip') }}
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: 'yipee-bloglist' # Must be unique in Heroku  
+          heroku_app_name: 'yipee-bloglist' # Must be unique in Heroku 
           heroku_email: 'mopoz07@gmail.com'
           dontuseforce: false
           procfile: 'web: npm run production'
