@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "start": "export PORT=3000 && react-scripts start",
-    "production": "cross-env NODE_ENV=production node index.js",
+    "production": "node index.js",
     "build": "react-scripts build",
     "dev:back": "cross-env NODE_ENV=development nodemon index.js",
     "lint": "eslint './**/*.{js,jsx}'",
